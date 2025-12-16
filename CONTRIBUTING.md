@@ -78,25 +78,12 @@ Do not change pin assignments without discussion.
 
 ---
 
-## What belongs in pocketbox
+## Scope boundaries
 
-- Low-level runtime code
-- Shared utilities
-- Reference games / demos
+pocketbox aims to keep its core small and reusable.
 
-## What does not
+- Full games are encouraged, but large asset-heavy projects should live in their own repositories and use pocketbox as a dependency.
+- Platform-specific features are welcome, but should fail gracefully or be clearly documented.
+- Experimental features are encouraged; core features should justify their inclusion beyond a single game.
 
-- Full games with large assets
-- Platform-specific hacks without fallback
-- Feature creep “just because it’s cool”
-
-Keep it small. Keep it sharp.
-
----
-
-## Tone
-
-This is a hobby project with strong opinions.
-Respect them, or fork freely.
-
-Both are valid.
+If you want something different, fork freely.
